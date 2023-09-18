@@ -1,0 +1,182 @@
+[
+    {
+        "id": "accesorio-01",
+        "titulo": "Juguete Mono/cuerda",
+        "imagen": "./img/juguetePerro1.png",
+        "categoria": {
+            "nombre": "Accesorios",
+            "id": "accesorios"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "accesorio-02",
+        "titulo": "Cuerda doble nudo",
+        "imagen": "./img/juguetePerro2.png",
+        "categoria": {
+            "nombre": "Accesorios",
+            "id": "accesorios"
+        },
+        "precio": 1200
+    },
+    {
+        "id": "accesorio-03",
+        "titulo": "Kit sanitario gato",
+        "imagen": "./img/kitgato.jpg",
+        "categoria": {
+            "nombre": "Accesorio",
+            "id": "accesorios"
+        },
+        "precio": 950
+    },
+    {
+        "id": "accesorio-04",
+        "titulo": "Raton plumas",
+        "imagen": "./img/ratonplumas.jpeg",
+        "categoria": {
+            "nombre": "Accesorios",
+            "id": "accesorios"
+        },
+        "precio": 400
+    },
+    {
+        "id": "alimentoPerro-01",
+        "titulo": "Dog Chow",
+        "imagen": "./img/dogchow.webp",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "alimentoPerro-02",
+        "titulo": "Pedigree",
+        "imagen": "./img/pedigree.webp",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "alimentoPerro-03",
+        "titulo": "Tiernitos",
+        "imagen": "./img/tiernitos.webp",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "alimentoPerro-04",
+        "titulo": "Royal Canin Mini Adult",
+        "imagen": "./img/mini.jpeg",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "alimentoPerro-05",
+        "titulo": "Eukanuba Adult",
+        "imagen": "./img/eukanubaperro.png",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "alimentoPerro-06",
+        "titulo": "Dog Selection",
+        "imagen": "./img/dogSelection.webp",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 6500
+    },
+    {
+        "id": "alimentoPerro-07",
+        "titulo": "Raza Perros",
+        "imagen": "./img/razaPerros.webp",
+        "categoria": {
+            "nombre": "AlimentoPerro",
+            "id": "alimentoPerro"
+        },
+        "precio": 4800
+    },
+    {
+        "id": "alimentoGato-01",
+        "titulo": "Cat Chow gatitos",
+        "imagen": "./img/catchowgatitos.jpg",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "alimentoGato-02",
+        "titulo": "Whiscas",
+        "imagen": "./img/whiscas2.jpg",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "alimentoGato-03",
+        "titulo": "Raza Gatos",
+        "imagen": "./img/raza.webp",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 5500
+    },
+    {
+        "id": "alimentoGato-04",
+        "titulo": "Sabrositos Gatos",
+        "imagen": "./img/sabrositosGato.jpg",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 5200
+    },
+    {
+        "id": "AlimentoGato-05",
+        "titulo": "Excellent Sterilized",
+        "imagen": "./img/excellentSterilized.png",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "AlimentoGato-06",
+        "titulo": "Gati",
+        "imagen": "./img/gati.webp",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "AlimentoGato-07",
+        "titulo": "Agility Gatos",
+        "imagen": "./img/agilityGatos.jpg",
+        "categoria": {
+            "nombre": "AlimentoGato",
+            "id": "alimentoGato"
+        },
+        "precio": 6800
+    }
+]
