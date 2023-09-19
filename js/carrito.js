@@ -1,6 +1,7 @@
 let productosEnCarrito = localStorage.getItem("productos-en-carrito");
 productosEnCarrito = JSON.parse(productosEnCarrito);
 
+// traemos elementos desde el DOM mediante id o clase 
 const contenedorCarritoVacio = document.querySelector("#carrito-vacio");
 const contenedorCarritoProductos = document.querySelector("#carrito-productos");
 const contenedorCarritoAcciones = document.querySelector("#carrito-acciones");
@@ -10,7 +11,7 @@ const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
 
-
+// funcion para cargar los productos en el carrito
 function cargarProductosCarrito() {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
 
@@ -21,6 +22,7 @@ function cargarProductosCarrito() {
     
         contenedorCarritoProductos.innerHTML = "";
     
+        // creamos productos desde js 
         productosEnCarrito.forEach(producto => {
     
             const div = document.createElement("div");
@@ -62,7 +64,7 @@ function cargarProductosCarrito() {
 }
 
 cargarProductosCarrito();
-
+// funcion para eliminar productos del carrito, usando toastify
 function actualizarBotonesEliminar() {
     botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
 
@@ -80,7 +82,7 @@ function eliminarDelCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #4b33a8, #785ce9)",
+          background: "linear-gradient(to right, #7e1275, #7e1275)",
           borderRadius: "2rem",
           textTransform: "uppercase",
           fontSize: ".75rem"
@@ -103,6 +105,7 @@ function eliminarDelCarrito(e) {
 }
 
 botonVaciar.addEventListener("click", vaciarCarrito);
+// funcion para vaciar el carrito de compras, usando sweet alert para confirmaccion 
 function vaciarCarrito() {
 
     Swal.fire({

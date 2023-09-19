@@ -1,3 +1,4 @@
+// traemos productos desde json mediante fetch
 let productos = [];
 
 fetch("./js/productos.json")
@@ -7,7 +8,7 @@ fetch("./js/productos.json")
         cargarProductos(productos);
     })
 
-
+// traemos elementos desde el DOM mediante id o clase
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
@@ -25,7 +26,7 @@ function cargarProductos(productosElegidos) {
     contenedorProductos.innerHTML = "";
 
     productosElegidos.forEach(producto => {
-
+// creamos productos desde js
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
@@ -81,7 +82,7 @@ if (productosEnCarritoLS) {
 } else {
     productosEnCarrito = [];
 }
-
+// funcion para agregar elementos al carrito, usando toastify
 function agregarAlCarrito(e) {
 
     Toastify({
@@ -92,7 +93,7 @@ function agregarAlCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #4b33a8, #785ce9)",
+          background: "linear-gradient(to right, #7e1275, #7e1275)",
           borderRadius: "2rem",
           textTransform: "uppercase",
           fontSize: ".75rem"
